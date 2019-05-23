@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 
 export default function SearchBar({ handleSearch }) {
@@ -12,8 +13,8 @@ export default function SearchBar({ handleSearch }) {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
-      <div className="ui right aligned category search">
+    <form onSubmit={handleSubmit} className="searchbar">
+      <div className="ui right aligned category search ">
         <div className="ui icon input">
           <input
             className="prompt"
