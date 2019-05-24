@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import productAPI from "../apis/productAPI";
+import "./SeeMore.css"
 
 export default function SeeMore({ match }) {
   const [product, setProduct] = useState([]);
@@ -15,12 +16,12 @@ export default function SeeMore({ match }) {
 
   return (
     <div className="ui container">
-      <div className="ui segments">
+      <div className="ui segments  box">
         <div className="ui segment">
           <img
             className="ui centered image"
             src={product.image}
-            alt="arten xosacel enq..."
+            alt="Arancin nkar"
           />
         </div>
         <div className="ui secondary segment">

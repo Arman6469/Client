@@ -1,7 +1,10 @@
 .searchBar{
-    border: 1px solid black;
     box-sizing: border-box; 
-    position: absolute;
-    right:5%;
-    top:5%;
+    position: relative;
+    width: 15.5%;
+    right:0%;
+    top:0%;
+    float: right;
+    margin-top: 15px;
+    color: beige;
 }

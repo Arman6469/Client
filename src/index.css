@@ -12,19 +12,18 @@ code {
     monospace;
 }
 
-
-
-nav{
+nav {
   margin: 0px;
-  margin-right: 0;
-  height: 400px;
-  width: 15%;
+  position: relative;
+  height: 80px;
+  width: 100%;
   font-size: 25px;
-  padding:0px 50px;
+  padding: 20px;
+  background-color: lightblue;
   display: flex;
-  flex-direction: column;
-  justify-content:space-around;
-  
+  flex-direction: inline;
+  justify-content: center;
+
   border: 1px solid black;
   box-sizing: border-box;
 }

@@ -1,5 +1,5 @@
-
 import React, { useState } from "react";
+import "./SearchBar.css"
 
 export default function SearchBar({ handleSearch }) {
   const [value, setValue] = useState("");
@@ -14,7 +14,7 @@ export default function SearchBar({ handleSearch }) {
 
   return (
     <form onSubmit={handleSubmit} className="searchbar">
-      <div className="ui right aligned category search ">
+      <div className="ui right aligned category search searchBar">
         <div className="ui icon input">
           <input
             className="prompt"
