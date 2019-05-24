@@ -47,7 +47,7 @@ export default function App() {
   return (
     <div>
       <SearchBar handleSearch={handleSearch} />
-      <div className="App">{renderImage()}</div>
+      <div className="ui three column grid">{renderImage()}</div>
     </div>
   );
 }

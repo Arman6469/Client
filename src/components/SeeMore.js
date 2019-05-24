@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import productAPI from "../apis/productAPI";
-import "./SeeMore.css"
+import "./SeeMore.css";
 
 export default function SeeMore({ match }) {
   const [product, setProduct] = useState([]);
@@ -15,11 +15,11 @@ export default function SeeMore({ match }) {
   }, [productId]);
 
   return (
-    <div className="ui container">
+    <div className="ui container background">
       <div className="ui segments  box">
         <div className="ui segment">
           <img
-            className="ui centered image"
+            className="ui centered image bxk"
             src={product.image}
             alt="Arancin nkar"
           />
@@ -28,6 +28,8 @@ export default function SeeMore({ match }) {
           <h2>
             {product.title}, ${product.price}
           </h2>
+          <h3>The little history`</h3>
+          <p>{product.description}</p>
         </div>
       </div>
     </div>

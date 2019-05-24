@@ -1,3 +1,9 @@
-.box{
-    margin-top: 300px;
+.background{
+    background-image: url("https://res.cloudinary.com/djwicpmah/image/upload/v1558684718/Red%20Square/60726776_2296169067263836_1762252324526358528_n_pdu3jy.jpg");
 }
+
+.bxk{
+    width: 400px;
+    height: 400px;
+}
+
