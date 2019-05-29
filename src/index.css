@@ -16,7 +16,7 @@ code {
 
 nav {
   margin: 0px;
-  position: relative;
+  position: fixed;
   height: 80px;
   width: 100%;
   font-size: 25px;
@@ -26,4 +26,5 @@ nav {
   flex-direction: inline;
   justify-content: space-evenly;
   box-sizing: border-box;
+  padding-bottom: 10px;
 }

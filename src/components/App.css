@@ -30,3 +30,7 @@
     flex-direction: column;
 }
 
+.ui.grid{
+    position: initial !important;
+    padding-top: 55px !important;
+}

@@ -1,6 +1,6 @@
 .searchBar{
     box-sizing: border-box; 
-    position: relative;
+    position: fixed !important;
     width: 15.5%;
     right:0%;
     top:0%;
